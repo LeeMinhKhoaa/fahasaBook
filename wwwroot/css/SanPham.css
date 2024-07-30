@@ -1,0 +1,75 @@
+﻿body {
+}
+.img-thumb{
+    max-width:100%;
+    height:350px;
+    object-fit:cover;
+}
+.card-custom{
+    
+}
+.product--item {
+    position: relative;
+    transition: box-shadow 0.3s ease;
+    padding-bottom:5px
+}
+.product--item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.product--item .img__book {
+    height: 190px;
+    max-height: 190px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.product--item .title__book {
+    color: #333333;
+    height: 28px;
+    font-size: 14px;
+}
+
+.product--item .price__book {
+    line-height: 18px;
+    font-size: 18px;
+    color: #c92127;
+    font-weight: 600;
+}
+
+.product--item .saleprice {
+    color: #888888;
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+.product--item .img_thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-block{
+    margin-top:25px;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    gap:10px;
+}
+.page-item {
+    text-align:center;
+    line-height:30px;
+    border-radius:4px;
+    font-size:18px;
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    transition: box-shadow 0.3s ease;
+}
+.page-item.active {
+    background-color: #c9214a;
+   
+}
+.page-item:hover {
+    background-color: #f6a500bf;
+}
+.page-item.active .page-item-link {
+    color: #fff;
+}

@@ -1,0 +1,77 @@
+.form {
+  width: 40%;
+
+  padding: 10px;
+}
+.register {
+  padding: 10px;
+  width: 30%;
+  margin: 10px auto;
+  background-color: #fff;
+  position: relative;
+}
+.btn--group {
+  margin-bottom: 10px;
+}
+.btn--signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+  color: #c92127;
+  border: 1px solid #c92127;
+  max-height: 40px;
+  height: 40px;
+}
+.btn--signup:hover {
+  color: #fff;
+  background-color: #c92127;
+}
+.dieukhoan {
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+}
+.close--btn {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.block__suscess .text {
+  font-size: 20px;
+}
+.close {
+  font-size: larger;
+}
+.block__suscess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20%;
+  right: 20%;
+  z-index: 2;
+  position: absolute;
+  display: none;
+  width: 300px;
+  height: 120px;
+  color: #fff;
+  background-color: #c92127;
+}
+.message {
+  padding-left: 0;
+  color: red;
+  font-size: large;
+}
+@media screen and (max-width: 740px) {
+  .register {
+    width: 90%;
+  }
+}

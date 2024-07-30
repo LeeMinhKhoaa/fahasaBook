@@ -1,0 +1,14 @@
+﻿@model Fahasa.Models.HoaDon
+@{
+    ViewData["Title"] = "PaymentSuccess";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center">Payment Success</h1>
+<div style="margin-top:10px;border:1px solid grey;padding:20px;text-align:center;width:60%;margin:0 auto">
+    <h3>Mã hóa đơn:@Model.MaHD</h3>
+    <p style="margin:10px 0">Người mua:@Model.User</p>
+    <p style="margin-bottom:10px">Tổng tiền:@Model.TongTien</p>
+    <a href="/Home/Index" class="btn btn-danger" style="width:60%">Tiếp tục mua sắm</a>
+</div>
+

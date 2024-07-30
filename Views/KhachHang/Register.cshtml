@@ -1,0 +1,69 @@
+﻿@model Fahasa.ViewModel.RegisterVM
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    Layout = "_Layout";
+}
+@section Styles {
+    <link rel="stylesheet" href="/css/form.css" />
+}
+<h1>Đăng ký thành viên</h1>
+
+ <div class="container-fluid p-4" style="background-color: #f0f0f0">
+     <form method="post">
+      <div class="register container p-3">
+        <div class="row number p-2">
+                <label for="" class="p-0">Tên Đăng Nhập</label>
+                <input type="text" class="p-0" id="signup" name="username" id="signup" />
+                <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                <!-- <p class="message__signup message"></p> -->
+        </div>
+        <div class="row number p-2">
+            <label for="" class="p-0">Email</label>
+            <input type="text" class="p-0" id="email" name="email" />
+            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+            @* <p class="message__email message"></p> *@
+        </div>
+        @* <div class="row number p-2">
+          <label for="" class="p-0">Số Điện Thoại</label>
+          <input type="text" class="p-0" id="phone" name="phone" />
+          <p class="message__number message"></p>
+        </div> *@
+        <div class="row number p-2">
+            <label for="" class="p-0">Mật Khẩu</label>
+            <input type="password" class="p-0" id="password" name="password" />
+            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+            @* <p class="message__password message"></p> *@
+        </div>
+        <div class="row number p-2">
+            <label for="" class="p-0">Nhập lại mật khẩu</label>
+            <input type="password" class="p-0" id="password" name="confirmpassword" />
+            <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+            @* <p class="message__password message"></p> *@
+        </div>
+        <div class="btn--group">
+        
+            <button class="btn--signup">Đăng ký</button>
+        </div>
+        <div class="row dieukhoan">
+          <p>
+            Bằng việc đăng ký, bạn đã đồng ý với Fahasa.com về
+            <span style="color: #2489f4"> điều khoản chính sách</span>
+            và <span style="color: #2489f4">chính sách bảo mật</span>
+          </p>
+        </div>
+        <div class="block__suscess">
+          <b class="text">Bạn đã đăng ký thành công</b>
+          <div class="close--btn">
+            <i class="fa-solid fa-circle-xmark close"></i>
+          </div>
+        </div>
+      </div>
+    </form>
+</div>
+@section Scripts {
+    <script src="/js/form.js"></script>
+}

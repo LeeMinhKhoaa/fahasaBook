@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Fahasa</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @RenderSection("Styles", required: false)
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Fahasa.styles.css" asp-append-version="true" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+          rel="stylesheet" />
+    <!-- font awsome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="~/css/styles.css" />
+
+</head>
+<body>
+    <header class="container-fluid g-0 header">
+        <div class="header__banner d-md-block d-none">
+            <img src="~/img/Brand day_1263x60.jpg" alt="" />
+        </div>
+        <nav class="navbar">
+            <div class="container navbar__inner"
+                 style="justify-content: space-around">
+                <!-- nav-brand -->
+                <a href="./index.html" class="logo-block">
+                    <img src="~/img/fahasa-logo.png"
+                         alt=""
+                         class="navbar-brand header__logo" />
+                </a>
+                <!-- nav-menu -->
+                <div class="nav-menu">
+                    <i class="fa-solid fa-bars menu-bars"></i>
+                    <i class="fa-solid fa-arrow-down d-md-inline d-none"></i>
+                    <div class="sub-nav">
+                        <div class="sub-nav--menu">
+                           
+                            <ul style="padding-left: 0;">
+
+                               @await Component.InvokeAsync("NhomSanPham")
+                            </ul>
+                        </div>
+              
+                       @*  <div class="sub-nav--block">
+
+                            <div class="col--sub-nav">
+                                <p class="title">Văn Học</p>
+                                <ul>
+                                    <li><a href="./product.html">Tiểu Thuyết </a>    </li>
+                                    <li><a href="./product.html">Truyện Ngắn  </a>    </li>
+                                    <li><a href="./product.html">Light Novel  </a>   </li>
+                                    <li><a href="./product.html">Ngôn Tình    </a></li>
+                                </ul>
+                            </div>
+                            <div class="col--sub-nav">
+                                <p class="title">Văn Học</p>
+                                <ul>
+                                    <li><a href="./product.html">Tiểu Thuyết     </li>
+                                    <li><a href="./product.html">Truyện Ngắn  </a>    </li>
+                                    <li><a href="./product.html">Light Novel  </a>   </li>
+                                    <li><a href="./product.html">Ngôn Tình    </a></li>
+                                </ul>
+                            </div>
+                            <div class="col--sub-nav">
+                                <p class="title">Văn Học</p>
+                                <ul>
+                                    <li><a href="./product.html">Tiểu Thuyết  </a>   </li>
+                                    <li><a href="./product.html">Truyện Ngắn  </a>    </li>
+                                    <li><a href="./product.html">Light Novel  </a>   </li>
+                                    <li><a href="./product.html">Ngôn Tình    </a></li>
+                                </ul>
+                            </div>
+                            <div class="col--sub-nav">
+                                <p class="title">Văn Học</p>
+                                <ul>
+                                    <li><a href="./product.html">Tiểu Thuyết     </li>
+                                    <li><a href="./product.html">Truyện Ngắn  </a>    </li>
+                                    <li><a href="./product.html">Light Novel  </a>   </li>
+                                    <li><a href="./product.html">Ngôn Tình    </a></li>
+                                </ul>
+                            </div>
+                        </div> *@
+                    </div>
+                </div>
+                <!-- nav-search -->
+                <form class="d-flex nav-search">
+                    <input class="form-control me-2 nav-input"
+                           type="search"
+                           placeholder="Tìm kiếm sản Phẩm bạn mong muốn"
+                           aria-label="Search" />
+                    <button class="btn btn-outline-success btn-search d-none d-md-flex"
+                            type="submit">
+                        <i class="fa-solid fa-magnifying-glass btn-search-icon"></i>
+                    </button>
+                </form>
+                <!-- nav-user -->
+                <div class="header__user">
+                    <div class="user--item--block d-md-block d-none">
+                        <i class="user--item-icon fa-regular fa-bell"> </i>
+                        <p class="d-md-block d-none">Thông báo</p>
+                    </div>
+
+                    <div class="user--item--block cart-block">
+                        <a href="/Cart/Index"> <i class="user--item-icon fa-solid fa-cart-shopping"></i></a>
+                        <a href="/Cart/Index"><p class="d-md-block d-none ">Giỏ Hàng</p></a>
+                        @await Component.InvokeAsync("Cart")
+                    </div>
+
+
+                    <div class="user--item--block user_block" style="position:relative">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+
+                            <a href=""> Xin chào <br /> <b>@User.Identity.Name</b> </a>
+                           
+                        }
+                        else
+                        {
+                            <a  asp-controller="KhachHang" asp-action="Login" asp-route-ReturnUrl="@ViewBag.ReturnUrl"><i class="user--item-icon fa-regular fa-user"></i></a>
+                            <a  asp-controller="KhachHang" asp-action="Login" asp-route-ReturnUrl="@ViewBag.ReturnUrl"><p class="d-md-block d-none">Tài Khoản</p></a>
+                        }
+                       
+                        <div class="sub-nav" style="bottom:-53px">
+                         @if (User.Identity.IsAuthenticated)
+                        {
+                            <a href="/KhachHang/LogOut">Đăng xuất</a>
+                        }
+                        else
+                        {
+                               <div><a href="/KhachHang/Login">Đăng nhập</a></div>
+                                <div><a href="/KhachHang/Register">Đăng ký</a></div>
+                        }
+                            
+                        </div>
+                    </div>
+                    <div class="user__languge"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style="min-height:60vh" class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Fahasa - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

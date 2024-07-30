@@ -1,0 +1,200 @@
+﻿@model IEnumerable<Fahasa.ViewModel.CartItem>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles{
+    <link rel="stylesheet" href="/css/styles__cart--product.css" />
+}
+
+<h1>Giỏ hàng</h1>
+
+<div class="main__inner container g-0">
+    <h2 class="title">Giỏ Hàng (2 Sản Phẩm)</h2>
+    <div class="row g-0">
+        <div class="col-md-9 col-12 block--left">
+            
+            <!-- dòng tiêu đề -->
+            <div class="row g-0 p-3 dongtieude"
+                 style="background-color: #fff">
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="checkbox" id="btnAll" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Chọn Tất Cả
+                    </label>
+                </div>
+                <p class="col--title col-md-3 d-none d-md-flex">Số lượng</p>
+                <p class="col--title col-md-3 d-none d-md-flex">Thành tiền</p>
+            </div>
+
+            <div class="book--list p-3 p-none">
+                @foreach (var item in Model)
+                {
+                    <div class="row g-0 book--item" >
+                       
+                       <input class="form-check-input col-2 me-5" type="checkbox" name="SachIds[]" data-id="@item.Id" value="" id="flexCheckDefault">
+                        
+              
+                        <div class="col-md-5 col-10 main--book">
+                            <img src="@item.Image"
+                                 alt=""
+                                 class="img--book" />
+                            <div class="content--block">
+                                <p class="name">@item.Name</p>
+                                <p class="money" data-price="@item.Price"><b>@string.Format("{0:C}", @item.Price)</b></p>
+                                <div class="row--mobile d-md-none d-flex">
+                                    <div class="block--add--sub">
+                                        <div class="row g-0">
+                                            <div class="caculator--book">
+                                                <div class="btn--sub">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <p class="caculart--number">@item.Quanlity</p>
+                                                <div class="btn__add">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col--title col-3 block--add--sub d-none d-md-flex">
+                            <div class="row g-3 d-none d-md-flex">
+                                <div class="col-5 caculator--book">
+                                    <div class="btn--sub">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </div>
+                                    <p class="caculart--number">@item.Quanlity</p>
+                                    <div class="btn__add">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- thùng rác -->
+                        <div class="col--title col-3 money--trash d-none d-md-flex">
+                            <p class="price" style="color: #c92127"><b>@($"{@item.ThanhTien:N0}đ")</b></p>
+                            <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                    </div>
+                }
+                <!-- Sản phẩm 1 -->
+                
+                <div class="seperate d-md-block d-none"></div>
+              
+              
+            </div>
+        </div>
+        <div class="col-md-3 col-12 block--right d-md-block d-none">
+            <div class="row price--row">
+                <p class="col-9">Thành tiền</p>
+                <p class="col">0đ</p>
+            </div>
+            <div class="seperate"></div>
+            <div class="row price--row" style="justify-content:space-between" >
+                <p class="col-8"><b>Tổng số tiền</b></p>
+                <p class="col" style="text-align:center;"><b style="color: #c92127;" id="Total Price">0đ</b></p>
+            </div>
+            <div class="btn--pay">Thanh Toán</div>
+            <div id="paypal-button-container" style="max-width:1000px;"></div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.ClientID"></script>
+    <script>
+        var price = 0
+        var totalPrice = document.getElementById("Total Price");
+        document.addEventListener("DOMContentLoaded", function () {
+            var btnAll = document.getElementById("btnAll");
+            var chk_items = document.querySelectorAll("input[name='SachIds[]']")
+            
+            btnAll.addEventListener("change", function () {
+                var isChecked = btnAll.checked;
+                chk_items.forEach(function (item) {
+                    item.checked = isChecked;
+                    
+                });
+            });
+            chk_items.forEach(function (item) {
+                item.onchange = function () {
+                    console.log(item.checked)
+                    var isCheckAll = chk_items.length === document.querySelectorAll("input[name='SachIds[]']:checked").length;
+                    btnAll.checked = isCheckAll;
+                    var priceStr = item.parentNode.querySelector(".money").getAttribute('data-price')
+                   
+                    if (item.checked) {
+                       
+                        price += parseFloat(priceStr)
+                    }
+                    else{
+                        price -= parseFloat(priceStr)
+                    }
+                    totalPrice.innerText = '$' + price.toFixed(2);
+                    console.log(totalPrice)
+                }
+            })
+            
+        });
+        function getCheckedItem() {
+            const checkboxes = document.querySelectorAll('input[name="SachIds[]"]:checked');
+
+            let checkedIds = Array.from(checkboxes).map(checkbox => checkbox.getAttribute('data-id'));
+            return checkedIds;
+        }
+       
+        paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'silver',
+                tagline: 'false'
+            },
+            createOrder: (data, actions) => {
+                
+                return fetch("/Cart/create-paypal-order", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        price:price
+                    })
+                }).then((response) => {
+                    console.log(response)
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    return response.json();
+                }).then((order) => order.id)
+                    .catch(error => alert(error.message));
+            },
+            onApprove: (data, actions) => {
+                var Items = getCheckedItem()
+                console.log(Items)
+                return fetch(`/Cart/capture-paypal-order?orderId=${data.orderID}`, {
+                    method: "post",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        Items:Items
+                    })
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    //Đổi địa chỉ tới action thông báo thành công
+                    window.location.href = "/Cart/PaymentSuccess";
+                }).catch(error => alert(error.message));
+            }
+        }).render('#paypal-button-container');
+    </script>
+
+    
+
+}

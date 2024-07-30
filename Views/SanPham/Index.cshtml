@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Fahasa.Models.Sach>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="/css/SanPham.css" />
+}
+
+<h1>Danh sách sách</h1>
+<hr />
+<div class="row">
+    <div class="col-3">
+        
+        @await Component.InvokeAsync("NhomSanPham")
+    </div>
+    <div class="col-9">
+        <div class="sort-block d-flex">
+            <p style="margin-right:10px">Sắp xếp</p>
+            <select name="sort">
+                <option value="" ></option>
+                <option value="increase">tăng dần</option>
+                <option value="decrease">giảm dần</option>
+            </select>
+        </div>
+        <br />
+        <div class="row">
+            @foreach (var sach in Model)
+            {
+                <div class="col-3 product--item">
+                    <a href="/SanPham/Details/@sach.MaSach" style="text-decoration: none;">
+                        <figure class="img_thumb">
+                            <img src="@sach.Hinh"
+                                 alt=""
+                                 class="img__book" />
+                        </figure>
+
+                        <h3 class="title__book">
+                            @sach.TenSach
+                        </h3>
+                        <p class="price__book">@string.Format("{0:C}", @sach.Gia)</p>
+                        <p class="saleprice">373.000đ</p>
+                        <div class="rate-block">
+                            <i class="fa-solid fa-star rate-start"></i>
+                            <i class="fa-solid fa-star rate-start"></i>
+                            <i class="fa-solid fa-star rate-start"></i>
+                            <i class="fa-solid fa-star rate-start"></i>
+                            <i class="fa-solid fa-star rate-start"></i>
+                            <p class="quanlity-rate">(0)</p>
+                        </div>
+                        <div class="quanlity--block">
+                            Số lượng tồn : @sach.SoLuong
+                            <div class="quanlity--block--wassell"></div>
+                        </div>
+                        <div class="sale-circle">50%</div>
+                    </a>
+                </div>
+                <br />
+            }
+        </div>
+        <div class="page-block">
+           
+            @for (int i =1; i <= ViewBag.tongtrang;i++)
+            {
+                if (i == ViewBag.trang)
+                {
+                    <div class="page-item active"><a class="page-item-link" href="/SanPham/Index/?trang=@i">@i</a></div>
+                }
+                else{
+                    <div class="page-item"><a class="page-item-link" href="/SanPham/Index/?trang=@i">@i</a></div>
+                }
+            }
+        </div>
+    </div>
+    @section Scripts {
+        <script>
+            document.querySelector('select[name="sort"]').addEventListener('change', function () {
+                let sortOrder = this.value;
+                window.location.href = '/SanPham/index?sort=' + sortOrder;
+            });
+        </script>
+    }
+    
+</div>
+
+
+

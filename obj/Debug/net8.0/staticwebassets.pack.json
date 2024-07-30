@@ -1,0 +1,657 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fahasa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fahasa.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\css\\SanPham.css",
+      "PackagePath": "staticwebassets\\css\\SanPham.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\css\\styles__cart--product.css",
+      "PackagePath": "staticwebassets\\css\\styles__cart--product.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\css\\styles__product.css",
+      "PackagePath": "staticwebassets\\css\\styles__product.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Brand day_1263x60.jpg",
+      "PackagePath": "staticwebassets\\img\\Brand day_1263x60.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\HoaCu_840x320_T523.jpg",
+      "PackagePath": "staticwebassets\\img\\HoaCu_840x320_T523.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\IconT4_F3.png",
+      "PackagePath": "staticwebassets\\img\\IconT4_F3.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_KinhTe_8px_1.png",
+      "PackagePath": "staticwebassets\\img\\Icon_KinhTe_8px_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_MaGiamGia_8px_1.png",
+      "PackagePath": "staticwebassets\\img\\Icon_MaGiamGia_8px_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_MangaCommic_8px_1.png",
+      "PackagePath": "staticwebassets\\img\\Icon_MangaCommic_8px_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_PhienChoCu_8px_1.png",
+      "PackagePath": "staticwebassets\\img\\Icon_PhienChoCu_8px_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_SanPhamMoi_8px_1.png",
+      "PackagePath": "staticwebassets\\img\\Icon_SanPhamMoi_8px_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_Trending_Hot_8px_1.png",
+      "PackagePath": "staticwebassets\\img\\Icon_Trending_Hot_8px_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_VanHoc_50.png",
+      "PackagePath": "staticwebassets\\img\\Icon_VanHoc_50.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\Icon_flashsale.png",
+      "PackagePath": "staticwebassets\\img\\Icon_flashsale.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\PoticoT5_FAHASA 392x156 .png",
+      "PackagePath": "staticwebassets\\img\\PoticoT5_FAHASA 392x156 .png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\TamLyKyNang_50.png",
+      "PackagePath": "staticwebassets\\img\\TamLyKyNang_50.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ZaloPayT523_392x156_SmallBanner.png",
+      "PackagePath": "staticwebassets\\img\\ZaloPayT523_392x156_SmallBanner.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\advertisement--list--product.jpg",
+      "PackagePath": "staticwebassets\\img\\advertisement--list--product.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\avatar-canhan.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-canhan.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\book--large.jpg",
+      "PackagePath": "staticwebassets\\img\\book--large.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\book--large_2.jpg",
+      "PackagePath": "staticwebassets\\img\\book--large_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\booksale-2.jpg",
+      "PackagePath": "staticwebassets\\img\\booksale-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\booksale-3.jpg",
+      "PackagePath": "staticwebassets\\img\\booksale-3.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\booksale-4.jpg",
+      "PackagePath": "staticwebassets\\img\\booksale-4.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\booksale-5.jpg",
+      "PackagePath": "staticwebassets\\img\\booksale-5.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\booksale_1.jpg",
+      "PackagePath": "staticwebassets\\img\\booksale_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_1.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_2.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_3.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_3.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_4.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_5.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_5.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_6.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_6.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_7.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_7.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_8.jpg",
+      "PackagePath": "staticwebassets\\img\\brand_8.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\brand_9.png",
+      "PackagePath": "staticwebassets\\img\\brand_9.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\dacnhantam.jpg",
+      "PackagePath": "staticwebassets\\img\\dacnhantam.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\dambighet.jpg",
+      "PackagePath": "staticwebassets\\img\\dambighet.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\danhthucnaobo.jpg",
+      "PackagePath": "staticwebassets\\img\\danhthucnaobo.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\dinhluatmurphy.jpg",
+      "PackagePath": "staticwebassets\\img\\dinhluatmurphy.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\fahasa-logo.png",
+      "PackagePath": "staticwebassets\\img\\fahasa-logo.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_1.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_2.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_2.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_3.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_3.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_4.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_4.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_5.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_5.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_6.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_6.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_7.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_7.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_8.png",
+      "PackagePath": "staticwebassets\\img\\footer__brand_8.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\footer__brand_9.jpg",
+      "PackagePath": "staticwebassets\\img\\footer__brand_9.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ico_dealhot (1).png",
+      "PackagePath": "staticwebassets\\img\\ico_dealhot (1).png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ico_dealhot.png",
+      "PackagePath": "staticwebassets\\img\\ico_dealhot.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ico_flashsale@3x.png",
+      "PackagePath": "staticwebassets\\img\\ico_flashsale@3x.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ico_menu_red.svg",
+      "PackagePath": "staticwebassets\\img\\ico_menu_red.svg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ico_shop_1.png",
+      "PackagePath": "staticwebassets\\img\\ico_shop_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ico_transfer.png",
+      "PackagePath": "staticwebassets\\img\\ico_transfer.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\ico_truck.png",
+      "PackagePath": "staticwebassets\\img\\ico_truck.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\images.png",
+      "PackagePath": "staticwebassets\\img\\images.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_1.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_10.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_10.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_2.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_3.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_3.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_4.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_5.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_5.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_6.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_6.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_7.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_7.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_8.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_8.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\menubook_9.jpg",
+      "PackagePath": "staticwebassets\\img\\menubook_9.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\samebook_1.jpg",
+      "PackagePath": "staticwebassets\\img\\samebook_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\samebook_2.jpg",
+      "PackagePath": "staticwebassets\\img\\samebook_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\samebook_3.jpg",
+      "PackagePath": "staticwebassets\\img\\samebook_3.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\samebook_4.jpg",
+      "PackagePath": "staticwebassets\\img\\samebook_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\samebook_5.jpg",
+      "PackagePath": "staticwebassets\\img\\samebook_5.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\small--images--book.jpg",
+      "PackagePath": "staticwebassets\\img\\small--images--book.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\small--images--book_1.jpg",
+      "PackagePath": "staticwebassets\\img\\small--images--book_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\small--images--book_2.jpg",
+      "PackagePath": "staticwebassets\\img\\small--images--book_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_1.png",
+      "PackagePath": "staticwebassets\\img\\social_1.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_2.png",
+      "PackagePath": "staticwebassets\\img\\social_2.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_3.png",
+      "PackagePath": "staticwebassets\\img\\social_3.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_4.png",
+      "PackagePath": "staticwebassets\\img\\social_4.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_5.png",
+      "PackagePath": "staticwebassets\\img\\social_5.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_6.png",
+      "PackagePath": "staticwebassets\\img\\social_6.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_7.png",
+      "PackagePath": "staticwebassets\\img\\social_7.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\social_8.png",
+      "PackagePath": "staticwebassets\\img\\social_8.png"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\thaydoidethanhcong.jpg",
+      "PackagePath": "staticwebassets\\img\\thaydoidethanhcong.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_1.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_10.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_10.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_2.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_3.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_3.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_4.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_5.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_5.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_6.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_6.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_7.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_7.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_8.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_8.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trendbook_9.jpg",
+      "PackagePath": "staticwebassets\\img\\trendbook_9.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\img\\trietlytienbaccuanguoidothai.jpg",
+      "PackagePath": "staticwebassets\\img\\trietlytienbaccuanguoidothai.jpg"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\js\\form.js",
+      "PackagePath": "staticwebassets\\js\\form.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASP_MVC\\Fahasa\\Fahasa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fahasa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fahasa.props",
+      "PackagePath": "build\\Fahasa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fahasa.props",
+      "PackagePath": "buildMultiTargeting\\Fahasa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fahasa.props",
+      "PackagePath": "buildTransitive\\Fahasa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

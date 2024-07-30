@@ -1,0 +1,175 @@
+﻿@model Fahasa.Models.Sach
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles{
+<link rel="stylesheet" href="~/css/styles__product.css" />
+}
+<h1>Details</h1>
+
+<form action="/Cart/AddCart" id="handlerForm" >
+    <input type="text" name="id" value="@Model.MaSach" />
+    <input type="text" name="quanlity" value="1" />
+    
+</form>
+
+<div class="book--block container">
+    <div class="row">
+        <div class="col-md-5 col-12 book--block--images">
+            <div class="row" style="align-items: center">
+                <div class="col-3 d-md-block d-none">
+                    <div class="small--img--block">
+                        <img src="@Model.Hinh"
+                             alt=""
+                             class="small--imges--book" />
+                    </div>
+                    <div class="small--img--block">
+                        <img src="@Model.Hinh"
+                             alt=""
+                             class="small--imges--book" />
+                    </div>
+                    <div class="small--img--block">
+                        <img src="@Model.Hinh"
+                             alt=""
+                             class="small--imges--book" />
+                    </div>
+                    <div class="small--img--block">
+                        <img src="@Model.Hinh"
+                             alt=""
+                             class="small--imges--book" />
+                    </div>
+                    <div class="more--images--block">+5</div>
+                </div>
+                <div class="col-12 col-md-9 big-images-block">
+                    <img src="@Model.Hinh"
+                         alt=""
+                         class="big--imgaes--book" />
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px; margin-bottom: 10px">
+                <button type="button" id="btn_AddToCart"  class="main-link d-md-block d-none">
+                    Thêm vào giỏ hàng
+                </button>
+                <a href="/Cart/AddCart/?id=@Model.MaSach&quanlity=1"
+                   class="main-link main--link--active d-md-block d-none">Mua Ngay</a>
+            </div>
+        </div>
+        <div class="col-md-7 book--block--infor">
+            <!-- Tên sách  -->
+            <div class="row">
+                <h2 class="book__title">
+                   @Model.TenSach
+                </h2>
+            </div>
+            <!-- nhà cung cấp -->
+            <div class="row d-none d-md-flex" style="margin-top: 15px">
+                <p class="soure__book col">
+                    Thể loại:
+                    <span style="font-weight: 600; color: #2489f4">
+                                            
+                    </span>
+                </p>
+                <p class="pulish__book col">Tác giả: <b></b></p>
+            </div>
+            <!-- nhà xuất bản -->
+            <div class="row d-none d-md-flex" style="margin-top: 8px">
+                <p class="print__book">
+                    Nhà xuất bản:<b> @Model.TheLoai.TenTL</b>
+                </p>
+                <p class="Quanlity__book">
+                    Số lượng tồn : <b> @Model.SoLuong</b>
+                </p>
+            </div>
+            <!-- Hàng ngôi sao -->
+            <div class="row" style="margin-top: 10px">
+                <div class="rate-block">
+                    <i class="fa-solid fa-star rate-start d-md-flex d-none"></i>
+                    <i class="fa-solid fa-star rate-start d-md-flex d-none"></i>
+                    <i class="fa-solid fa-star rate-start d-md-flex d-none"></i>
+                    <i class="fa-solid fa-star rate-start d-md-flex d-none"></i>
+                    <i class="fa-solid fa-star rate-start"></i>
+                    <p class="quanlity-rate" style="color: #f7941e">
+                        (0 đánh giá)
+                    </p>
+                </div>
+            </div>
+            <!-- Giá tiền -->
+            <div class="row price__block g-1"
+                 style="margin-top: 10px; margin-bottom: 15px">
+                <p class="main--price col-md-3 col-2">@string.Format("{0:C}", @Model.Gia)</p>
+                <p class="price--line--through col-2">68.000</p>
+                <p class="discount--block col-2">-50%</p>
+            </div>
+            <!-- Thời gian giao hàng -->
+            <div class="row back--product g-2"
+                 style="margin-bottom: 10px; align-items: center">
+                <i class="fa-solid fa-truck-fast col-1 d-flex d-md-none"
+                   style="color: #da1616"></i>
+                <p class="col-3 d-md-flex d-none">Thời gian trả hàng</p>
+                <p class="col-4 col-md-3">Giao hàng đến</p>
+                <p class="col-3 ms-auto ms-md-0"
+                   style="font-weight: 600; color: blue">
+                    Thay đổi
+                </p>
+            </div>
+            <!-- Chính sách -->
+            <div class="row g-2 justify-content-md-start justify-content-between chinhsach">
+                <p class="col-3 d-none d-md-flex">Chính sách đổi trả</p>
+                <p class="col-md-5 col-8">Đổi trả sản phẩm trong 30 ngày</p>
+                <p class="col-3" style="font-weight: 600; color: blue">
+                    Xem Thêm
+                </p>
+            </div>
+            <!-- Số lượng đổi trả -->
+            <div class="row g-3 d-none d-md-flex" style="margin-top: 15px">
+                <p class="col-3 soluong">Số lượng:</p>
+                <div class="col-5 caculator--book">
+                    <div class="btn--sub">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <p class="caculart--number">1</p>
+                    <div class="btn__add">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var btnSub = document.querySelector(".btn--sub");
+            var btnAdd = document.querySelector(".btn__add");
+            var quantity = document.querySelector(".caculart--number"); // corrected typo here
+            var btn_AddToCart = document.getElementById("btn_AddToCart");
+            var form = document.getElementById("handlerForm")
+            btnAdd.addEventListener("click", function () {
+                var currentQuantity = parseInt(quantity.textContent);
+                quantity.textContent = currentQuantity + 1;
+            });
+
+            btnSub.addEventListener("click", function () {
+                var currentQuantity = parseInt(quantity.textContent);
+                if (currentQuantity > 1) {
+                    quantity.textContent = currentQuantity - 1;
+                }
+            });
+            // Sự kiện submit form
+            btn_AddToCart.addEventListener("click", function () {
+                var quantityInput = form.querySelector("input[name='quanlity']");
+                console.log(form)
+                quantityInput.value = parseInt(quantity.textContent);
+                console.log(form)
+                form.submit();
+            });
+            
+            // Sự kiện check all
+
+            
+            
+        });
+    </script>
+}
